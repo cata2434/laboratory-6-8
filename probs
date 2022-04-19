@@ -6,6 +6,23 @@
 #include <math.h>
 using std::vector;
 
+/*
+		if ([](int value) {	
+			if (value < 0)
+				return false;
+			int root(round(sqrt(value)));
+			return value == root * root; }
+		)
+		})
+
+
+bool is_perfect_square(int n) {
+	if (n < 0)
+		return false;
+	int root(round(sqrt(n)));
+	return n == root * root;
+}
+*/
 
 int main()
 {
